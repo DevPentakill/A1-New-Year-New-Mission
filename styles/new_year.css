@@ -31,7 +31,7 @@
 }
 
 .section-info {
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -48,7 +48,8 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    
+    cursor: pointer;
+
 }
 
 /* banner related cSS styles */
@@ -120,15 +121,40 @@
 }
 
 /* midnight-party section with join now button related styles */
+
 #midnight-party {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    background-image: url('../images/imgs/Vectorrr.png');
-    /* background-repeat: no-repeat;
+    /* align-items: center;
+    justify-content: space-between; */
+    background-image:
+        /*linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),*/
+        url('../images/imgs/Vectorrr.png');
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    max-height: 600px; */
+    max-height: 600px;
 
+}
+
+.midnight-title {
+    color: #FFF;
+    font-size: 53px;
+    line-height: 72px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+
+}
+.midnight-info{
+    color:rgba(255, 255, 255, 0.80);
+}
+
+/* Gift-portfolio related stayles starts here. */
+
+.gift-title {
+    color: #070211;
+    font-size: 40px;
+    line-height: normal;
+}
+.gift-info h4 {
+    text-align: left;
 }
