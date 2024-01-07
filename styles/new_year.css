@@ -30,6 +30,27 @@
     line-height: normal;
 }
 
+.section-info {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
 /* banner related cSS styles */
 
 #banner {
@@ -73,9 +94,9 @@
     justify-content: center;
 }
 
-#sixty-five-off img{
- padding: 0px 255px;
-    
+#sixty-five-off img {
+    padding: 0px 255px;
+
 }
 
 .sixty-five-off-content h1 {
@@ -86,6 +107,7 @@
     font-weight: 700;
     margin-bottom: 48px;
 }
+
 .sixty-five-off-content h3 {
     color: #070211;
     text-align: center;
@@ -94,5 +116,19 @@
     font-weight: 700;
     margin-top: 16px;
     margin-bottom: 45px;
-   
+
+}
+
+/* midnight-party section with join now button related styles */
+#midnight-party {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background-image: url('../images/imgs/Vectorrr.png');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-height: 600px; */
+
 }
