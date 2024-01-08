@@ -208,10 +208,12 @@
     line-height: normal;
     margin-bottom: 20px;
 }
+
 .gift-items {
     margin-top: 45px;
     background-color: lightgray 0px -35.755px / 100% 142.115% no-repeat;
 }
+
 .item-group1,
 .item-group2 {
     display: flex;
@@ -225,7 +227,7 @@
 .fancy-item2 {
     border-radius: 16px;
     margin-right: 23px;
-    
+
 }
 
 .fancy-item3 {
@@ -251,4 +253,10 @@
 .item5:hover,
 .item6:hover {
     transform: scale(1.15);
+}
+
+/* styles related to Subscribe-newsletter section starts here. */
+#subscribe-newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
