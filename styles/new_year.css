@@ -51,14 +51,16 @@
     cursor: pointer;
     transition-duration: 0.5s;
 }
-.btn-primary:hover{
-    background-color:  white;
+
+.btn-primary:hover {
+    background-color: white;
     color: #F00;
 }
 
 /* banner related cSS styles */
 
-#banner {                               /*main container of this section*/
+#banner {
+    /*main container of this section*/
     display: block;
     align-items: center;
     justify-content: center;
@@ -72,7 +74,8 @@
 
 }
 
-.banner-title {                          /*Actual content styles*/
+.banner-title {
+    /*Actual content styles*/
     color: #FFF;
     text-align: center;
     font-size: 59px;
@@ -94,7 +97,8 @@
 
 /* 65% off section related to styles */
 
-#sixty-five-off {                           /*main container of this section*/
+#sixty-five-off {
+    /*main container of this section*/
     display: block;
     align-items: center;
     justify-content: center;
@@ -105,7 +109,8 @@
 
 }
 
-.sixty-five-off-content h1 {                      /*Actual content styles*/
+.sixty-five-off-content h1 {
+    /*Actual content styles*/
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -127,7 +132,8 @@
 
 /* midnight-party section with join now button related styles */
 
-#midnight-party {                                /*main container of this section*/
+#midnight-party {
+    /*main container of this section*/
     border-radius: 16px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
         url('../images/imgs/Vectorrr.png');
@@ -141,14 +147,17 @@
     gap: 40px;
 }
 
-.midnight-party-content {                         /*Child container of this section*/
+.midnight-party-content {
+    /*Child container of this section*/
     padding: 126px 0px 140px 126px;
 }
-.midnight-party-2024{
-     margin: 68px 98px 67px 0px;
+
+.midnight-party-2024 {
+    margin: 68px 98px 67px 0px;
 }
 
-.midnight-title {                                /*Actual content styles*/
+.midnight-title {
+    /*Actual content styles*/
     color: #FFF;
     font-size: 50px;
     line-height: 72px;
@@ -156,9 +165,11 @@
     margin-bottom: 24px;
 
 }
+
 .midnight-info {
     color: rgba(255, 255, 255, 0.80);
 }
+
 .midnight-party-content button {
     background: transparent;
     padding: 0px;
@@ -171,25 +182,69 @@
     margin: 48px 0px 0px 32px;
     cursor: pointer;
 }
-.midnight-party-content button:hover{
-    background-color:  rgb(179, 13, 13);    /*tried something different outside the instruction*/
+
+.midnight-party-content button:hover {
+    background-color: rgb(179, 13, 13);
+    /*tried something different outside the instruction*/
     font-size: 21px;
     color: white;
 }
 
 /* Gift-portfolio related styles starts here. */
+.gift-info {
+    width: 78%;
+    max-width: 742px;
+}
+
+/* .gift-items {
+    width: 100%;
+    max-width: 1320px;
+
+} */
+
+.gift-info h4 {
+    text-align: left;
+    margin-bottom: 16px;
+}
 
 .gift-title {
     color: #070211;
     font-size: 40px;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
-.gift-info h4 {
-    text-align: left;
+.gift-items {
+    margin-top: 45px;
 }
-.item-group1, .item-group2 {
+
+.item-group1,
+.item-group2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* vertical-align: bottom; */
+    margin-bottom: 23px;
+}
+
+
+.fancy-item1,
+.fancy-item2 {
+border-radius: 16px;
+margin-right: 23px;
+/* background-color: lightgray 0px -35.755px / 100% 142.115% no-repeat;  */
+}
+
+.fancy-item3 {
+    border-radius: 16px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    max-width: 350px;
+    max-height: 370px;
 }
