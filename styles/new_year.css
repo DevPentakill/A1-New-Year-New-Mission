@@ -256,6 +256,7 @@
 }
 
 /* styles related to Subscribe-newsletter section starts here. */
+
 #subscribe-newsletter {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -302,23 +303,26 @@
     max-height: 59px;
     border-radius: 0px 50px 50px 0px;
     border: 0px;
+    margin-bottom: 75px;
 }
 
-.subscribe-form input {
+.subscribe-form input[type="email"] {
     max-width: 363px;
     max-height: 59px;
     border: 0px;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
+    margin-bottom: 75px;
 }
 
+input[type="email"]:focus {
+    background-color: rgb(214, 238, 221);
+}
 
-/* .subscribe-form input[placeholder] {
-
-color: rgba(7, 2, 17, 0.30);
-text-align: center;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-padding: 25px 267px 25px 30px;
-} */
+.subscribe-form input[placeholder="user@gmail.com"] {
+    color: rgba(7, 2, 17);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 11px 267px 21px 30px;
+}
