@@ -67,6 +67,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: auto;
     max-height: 600px;
 
 }
@@ -186,4 +187,9 @@
 
 .gift-info h4 {
     text-align: left;
+}
+.item-group1, .item-group2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
