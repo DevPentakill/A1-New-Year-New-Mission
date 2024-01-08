@@ -259,4 +259,20 @@
 #subscribe-newsletter {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    display:block;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.sub-logo {
+   
+    width: 150px;
+    height: 150px;  
+}
+.subscribe-logo, .subscribe-info, .subscribe-form{
+    text-align: center;
+}
+/* .subscribe-form{
+    display:flex;
+} */
