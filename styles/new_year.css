@@ -10,7 +10,7 @@
 .container {
     width: 83%;
     max-width: 1320px;
-    margin: 50px auto 0px;
+    margin: 50px auto 120px;
     /* background-color: brown; */
 }
 
@@ -49,12 +49,16 @@
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
-
+    transition-duration: 0.5s;
+}
+.btn-primary:hover{
+    background-color:  white;
+    color: #F00;
 }
 
 /* banner related cSS styles */
 
-#banner {
+#banner {                               /*main container of this section*/
     display: block;
     align-items: center;
     justify-content: center;
@@ -62,12 +66,12 @@
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/imgs/Banner_Image.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     max-height: 600px;
 
 }
 
-.banner-title {
+.banner-title {                          /*Actual content styles*/
     color: #FFF;
     text-align: center;
     font-size: 59px;
@@ -89,7 +93,7 @@
 
 /* 65% off section related to styles */
 
-#sixty-five-off {
+#sixty-five-off {                           /*main container of this section*/
     display: block;
     align-items: center;
     justify-content: center;
@@ -100,7 +104,7 @@
 
 }
 
-.sixty-five-off-content h1 {
+.sixty-five-off-content h1 {                      /*Actual content styles*/
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -122,39 +126,64 @@
 
 /* midnight-party section with join now button related styles */
 
-#midnight-party {
-    display: flex;
-    /* align-items: center;
-    justify-content: space-between; */
-    background-image:
-        /*linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),*/
+#midnight-party {                                /*main container of this section*/
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
         url('../images/imgs/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     max-height: 600px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
-.midnight-title {
+.midnight-party-content {                         /*Child container of this section*/
+    padding: 126px 0px 140px 126px;
+}
+.midnight-party-2024{
+     margin: 68px 98px 67px 0px;
+}
+
+.midnight-title {                                /*Actual content styles*/
     color: #FFF;
-    font-size: 53px;
+    font-size: 50px;
     line-height: 72px;
-    /* 137.5% */
-    letter-spacing: 7.04px;
+    letter-spacing: 7.09px;
+    margin-bottom: 24px;
 
 }
-.midnight-info{
-    color:rgba(255, 255, 255, 0.80);
+.midnight-info {
+    color: rgba(255, 255, 255, 0.80);
+}
+.midnight-party-content button {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 48px 0px 0px 32px;
+    cursor: pointer;
+}
+.midnight-party-content button:hover{
+    background-color:  rgb(179, 13, 13);    /*tried something different outside the instruction*/
+    font-size: 21px;
+    color: white;
 }
 
-/* Gift-portfolio related stayles starts here. */
+/* Gift-portfolio related styles starts here. */
 
 .gift-title {
     color: #070211;
     font-size: 40px;
     line-height: normal;
 }
+
 .gift-info h4 {
     text-align: left;
 }
