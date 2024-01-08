@@ -191,16 +191,11 @@
 }
 
 /* Gift-portfolio related styles starts here. */
+
 .gift-info {
     width: 78%;
     max-width: 742px;
 }
-
-/* .gift-items {
-    width: 100%;
-    max-width: 1320px;
-
-} */
 
 .gift-info h4 {
     text-align: left;
@@ -213,26 +208,24 @@
     line-height: normal;
     margin-bottom: 20px;
 }
-
 .gift-items {
     margin-top: 45px;
+    background-color: lightgray 0px -35.755px / 100% 142.115% no-repeat;
 }
-
 .item-group1,
 .item-group2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* vertical-align: bottom; */
     margin-bottom: 23px;
 }
 
 
 .fancy-item1,
 .fancy-item2 {
-border-radius: 16px;
-margin-right: 23px;
-/* background-color: lightgray 0px -35.755px / 100% 142.115% no-repeat;  */
+    border-radius: 16px;
+    margin-right: 23px;
+    
 }
 
 .fancy-item3 {
@@ -247,4 +240,15 @@ margin-right: 23px;
 .item6 {
     max-width: 350px;
     max-height: 370px;
+    cursor: zoom-in;
+    transition: transform 0.4s;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover {
+    transform: scale(1.15);
 }
