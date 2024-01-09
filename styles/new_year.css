@@ -97,15 +97,15 @@
 
 /* 65% off section related to styles */
 
-#sixty-five-off {
-    /*main container of this section*/
+#sixty-five-off {                             /*main container of this section*/
     display: block;
     align-items: center;
     justify-content: center;
-}
+} 
 
 #sixty-five-off img {
     padding: 0px 255px;
+    
 
 }
 
