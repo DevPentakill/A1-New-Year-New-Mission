@@ -345,3 +345,16 @@ footer {
     height: 609px;
     /* line-height: 40px; */
 }
+.foot_1stlayer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot_2ndlayer{
+    text-align: center;
+}
+.foot_3rdlayer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
