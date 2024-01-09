@@ -57,6 +57,11 @@
     color: #F00;
 }
 
+hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
 /* banner related cSS styles */
 
 #banner {
@@ -97,15 +102,16 @@
 
 /* 65% off section related to styles */
 
-#sixty-five-off {                             /*main container of this section*/
+#sixty-five-off {
+    /*main container of this section*/
     display: block;
     align-items: center;
     justify-content: center;
-} 
+}
 
 #sixty-five-off img {
     padding: 0px 255px;
-    
+
 
 }
 
@@ -170,7 +176,8 @@
     color: rgba(255, 255, 255, 0.80);
 }
 
-.midnight-party-content button {
+/* .midnight-party-content button  */
+.btn-slim {
     background: transparent;
     padding: 0px;
     border: 0px;
@@ -325,4 +332,16 @@ input[type="email"]:focus {
     font-size: 18px;
     font-weight: 400;
     padding: 11px 267px 21px 30px;
+}
+
+/* styles related to footer */
+footer {
+    background-color: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 1600px;
+    height: 609px;
+    /* line-height: 40px; */
 }
