@@ -211,7 +211,8 @@ span {
     max-width: 742px;
 }
 
-.gift-info h4, .Coming-Soon-info h4 {
+.gift-info h4,
+.Coming-Soon-info h4 {
     text-align: left;
     margin-bottom: 16px;
 }
@@ -440,27 +441,37 @@ footer {
 #Coming-Soon {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    background-color: aqua;
+    justify-content: space-between;
 }
 
-.Coming-Soon-info{
-    
-    background-color: #F00;
-    margin: 105px 70px 104px 0px;
+.Coming-Soon-info {
+    width: 22%;
 }
+
 .Circular-Logo {
-    margin-right: 118px;
-    background-color: #F00;
-    /* padding: 49.08px; */
-    /* border-radius: 463px;
-    border: 15px solid #F00; */
+    width: 40%;
+    border-radius: 470px;
+    border: 15px solid #F00;
 
 }
 
-.Celebrate-Logo {}
+.Celebrate-Logo {
+    padding: 45px;
+}
 
 .Coming-Soon-text {
-    margin-top: 112px;
-    background-color: #F00;
+    width: 20%;
+}
+
+.Coming-Soon-text h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.Coming-Soon-text img {
+    margin-top: 24px;
 }
