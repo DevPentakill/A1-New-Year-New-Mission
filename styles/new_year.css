@@ -509,11 +509,23 @@ footer {
 
 }
 .holiday-pic1{
+    width:40%;
     position: absolute;
     bottom: 50px;
 }
 .holiday-pic2{
+    width:30%;
+    height: 15%;
     position: absolute;
-    right: 100px;
-    bottom:30px;
+    right: 200px;
+    bottom:18px;
+}
+.holiday-pic3{
+    width:12%;
+    position: absolute;
+}
+.holiday-pic4{
+    width:15%;
+    position: relative;
+
 }
