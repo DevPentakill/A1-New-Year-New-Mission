@@ -503,3 +503,17 @@ footer {
     line-height: 32px;
 
 }
+.holiday-lady{
+    /* display:flex; */
+    position:relative;
+
+}
+.holiday-pic1{
+    position: absolute;
+    bottom: 50px;
+}
+.holiday-pic2{
+    position: absolute;
+    right: 100px;
+    bottom:30px;
+}
