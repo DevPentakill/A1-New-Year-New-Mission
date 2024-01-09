@@ -58,8 +58,11 @@
 }
 
 hr {
+    /*for footer section*/
     height: 1px;
-    background: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
+    ;
+    border: 0px;
 }
 
 /* banner related cSS styles */
@@ -341,20 +344,54 @@ footer {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    width: 1600px;
-    height: 609px;
-    /* line-height: 40px; */
+  
+    padding: 95px 100px;
+    line-height: 40px;
 }
-.foot_1stlayer{
+
+.foot_1stlayer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.foot_2ndlayer{
+
+.foot_2ndlayer {
     text-align: center;
 }
-.foot_3rdlayer{
+
+.foot_3rdlayer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+.address{
+    margin-bottom: 50px;
+}
+.contact{
+    margin-bottom: 50px;
+}
+.contact-no, .contact-site{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+.social-handles{
+    margin: 48px auto;
+}
+.social1, .social2, .social3{
+    margin-right: 24px;
+}
+.copyright{
+    margin-top: 42px;
+}
+
+/* implementing hover effect for social media links of footer. */
+.social1, .social2, .social3, .social4{
+    transition: opacity 0.5s;
+}
+
+.social1:hover, .social2:hover, .social3:hover, .social4:hover{
+    opacity: 0.1;
 }
